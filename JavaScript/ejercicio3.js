@@ -31,9 +31,9 @@ true if inputString is a palindrome, false otherwise.
 
 
 function solution(inputString) {
-    var poli = "";
+    var pali = "";
     for(var i = inputString.length - 1; i>=0; i--){
-        poli += inputString[i];
+        pali += inputString[i];
     }
-    return poli == inputString;
+    return pali == inputString;
 }
